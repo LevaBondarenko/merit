@@ -1,0 +1,274 @@
+@charset "UTF-8";
+html, body, .container {
+  height: 100%;
+}
+
+a, li {
+  color: black;
+  border-radius: 0;
+}
+
+a:hover, li:hover {
+  border-radius: 0;
+}
+
+.fa {
+  padding: 0 5px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-merit {
+  background: black;
+  border: none;
+}
+
+header {
+  width: 100%;
+  background: #fff;
+  z-index: 2;
+}
+
+.logo {
+  width: 100px;
+}
+
+.header__logo {
+  float: left;
+  padding: 5px;
+}
+
+.social {
+  background: #193441;
+  color: #fff;
+}
+
+.social i {
+  float: left;
+  padding: 8px;
+  margin: 0;
+}
+
+.social p {
+  padding: 5px;
+  float: left;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.social ul {
+  margin: 5px;
+  float: right;
+}
+
+.header_nav ul {
+  list-style: none;
+  float: right;
+  margin: 30px 0;
+}
+
+.header_nav ul li {
+  display: inline-block;
+  border-radius: 0;
+}
+
+.header_nav ul li a {
+  display: block;
+  text-transform: uppercase;
+  color: #000;
+  transition: background .3s ease-in,border-radius .2s ease-in-out,box-shadow .3s ease-in-out;
+}
+
+.header_nav ul li a:hover {
+  border-radius: 15px;
+  color: #fff;
+  background: #29313B;
+  box-shadow: 0px 0px 0px 1px;
+}
+
+.slider {
+  background: #ddd;
+}
+
+.search {
+  margin: 20px 0;
+}
+
+.search form {
+  background: #193441;
+  padding: 20px 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.search form button {
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #000;
+  padding: 0 8px 0 10px;
+  transition: transform .3s ease-in-out;
+}
+
+.search form button:hover {
+  border: 0;
+  -moz-transform: rotate(15deg);
+  /* Для Firefox */
+  -ms-transform: rotate(15deg);
+  /* Для IE */
+  -webkit-transform: rotate(15deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(15deg);
+  /* Для Opera */
+  transform: rotate(15deg);
+  background: transparent;
+  box-shadow: none;
+  color: #000;
+}
+
+.search form .glyphicon-search {
+  font-size: 23px;
+}
+
+.search form .input-group-btn {
+  position: absolute;
+  top: 20px;
+  right: 55px;
+}
+
+.services {
+  background: #eee;
+}
+
+.services__container {
+  padding: 20px 10px;
+}
+
+.services__nav {
+  float: left;
+  background: #fff;
+  width: 30%;
+  border: 1px solid #ddd;
+}
+
+.services__nav li {
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.services__nav li:first-child {
+  background: #193441;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.services__nav li a {
+  display: block;
+  text-align: left;
+  padding: 10px 5px;
+  transition: all .3s ease-in-out;
+}
+
+.services__nav li a:hover {
+  background: #F6D852;
+}
+
+.services__block {
+  width: 70%;
+  float: left;
+  padding: 0 20px;
+  position: relative;
+}
+
+.services__block .big__block {
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  position: relative;
+  transition: all .3s ease-in-out;
+  float: left;
+}
+
+.services__block .small__block {
+  width: 350px;
+  height: 195px;
+  float: right;
+  position: relative;
+  transition: all .3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.services__block .content {
+  background: rgba(49, 112, 143, 0.68);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding: 5px;
+  color: #fff;
+}
+
+.services a.more {
+  color: #111;
+  font-weight: 600;
+  background: #F6D852;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.services__rotator {
+  float: left;
+}
+
+.services .blocks {
+  width: 100%;
+}
+
+.services .box {
+  width: 200px;
+  float: left;
+  background: #fff;
+  height: 300px;
+  margin: 0 15px;
+  border: 1px solid #ddd;
+}
+
+.services .box:first-child {
+  margin-left: 0;
+}
+
+.services .box:last-child {
+  margin-right: 0;
+}
+
+.services .box .box_content {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+.services .box .box_content i {
+  font-size: 10em;
+  color: #F6D852;
+}
+
+.services .box .box_content h3 {
+  color: #193441;
+}
+
+.services .box .box_content p {
+  color: #000;
+}
