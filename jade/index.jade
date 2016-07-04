@@ -1,0 +1,86 @@
+extends layouts.jade
+block title
+	title Hello
+block content
+	section.search
+		.container
+			form
+				input.form-control(placeholder="Поиск")
+				span.input-group-btn
+					button.btn.btn-info.btn-lg(type='button')
+						i.glyphicon.glyphicon-search
+	section.services
+		.container.services__container
+			ul.services__nav
+				li
+					| Список услуг
+				li
+					a.btn(href="#") Lorem.
+				li
+					a.btn(href="#") Corporis!
+				li
+					a.btn(href="#") Nisi.
+				li
+					a.btn(href="#") Quo.
+				li
+					a.btn(href="#") Nostrum!
+			.services__block
+				.big__block(style="background:url('img/img-1.jpg')")
+					.content
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, architecto.
+						a.btn.more Подробнее
+				.small__block(style="background:url('img/img-2.jpg')")
+					.content
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, natus.
+						a.btn.more Подробнее
+				.small__block(style="background:url('img/img-2.jpg')")
+					.content
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, natus.
+						a.btn.more Подробнее
+			.services__rotator
+				h2
+					| Топ наших услуг
+				.blocks
+					.box
+						.box_content
+							i.fa.fa-desktop
+							h3 Lorem inpus
+							p Lorem inpus
+					.box
+						.box_content
+							i.fa.fa-desktop
+							h3 Lorem inpus
+							p Lorem inpus
+					.box
+						.box_content
+							i.fa.fa-desktop
+							h3 Lorem inpus
+							p Lorem inpus
+					.box
+						.box_content
+							i.fa.fa-desktop
+							h3 Lorem inpus
+							p Lorem inpus
+					.box
+						.box_content
+							i.fa.fa-desktop
+							h3 Lorem inpus
+							p Lorem inpus
+	section.info
+		.container.info__container
+			h2 Требуется помощь?
+			ul.info_list
+				li
+					Выезд специалиста от 30 минут
+				li
+					Бесплатная диагностика
+				li
+					Гарантия от 1 года
+
+
+		//- include book.jade
+
+	

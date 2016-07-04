@@ -1,0 +1,43 @@
+.search{
+  margin: 20px 0;
+  form{
+    background: $blue;
+    padding: 20px 20px;
+    border-radius:5px;
+    position: relative;
+    button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #000;
+    padding: 0 8px 0 10px;
+    transition: transform .3s ease-in-out;
+}
+
+ button:hover{
+    border: 0;
+    -moz-transform: rotate(15deg); /* Для Firefox */
+    -ms-transform: rotate(15deg); /* Для IE */
+    -webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(15deg); /* Для Opera */
+    transform: rotate(15deg);
+    background: transparent;
+    box-shadow: none;
+    color: #000;
+}
+
+ .glyphicon-search{
+    font-size: 23px;
+}
+.input-group-btn{
+  position: absolute;
+  top: 20px;
+  right: 55px;
+}
+
+
+  }
+ 
+
+}

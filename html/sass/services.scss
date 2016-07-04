@@ -1,0 +1,111 @@
+.services{
+	background: #eee;
+	&__container{
+		padding: 20px 10px;
+	}
+	&__nav{
+		float: left;
+		background: #fff;
+		width: 30%;
+		    border: 1px solid #ddd;
+		li{
+			&:first-child{
+				background: $blue;
+				color: #fff;
+				font-weight:600;
+				letter-spacing: 2px;
+				font-size: 1.1em;
+				text-transform: uppercase;
+				padding: 10px;
+
+			}
+			display: block;
+			border-bottom: 1px solid #eee;
+			a{
+				display: block;
+		text-align: left;
+		padding: 10px 5px;
+		transition: all .3s ease-in-out;
+		&:hover{
+			background: $yellow;
+
+			}
+		}
+		}
+	}
+	&__block{
+		width: 70%;
+	    float: left;
+	    padding: 0 20px;
+	    position: relative;
+	    .big__block{
+	    	 height: 400px;   
+    width: 400px;
+    background-size: cover;
+    position: relative;
+    transition: all .3s ease-in-out;
+    float: left;
+
+	    }
+	    .small__block{
+	    	width: 350px;
+    height: 195px;
+    float: right;
+    position: relative;
+    transition: all .3s ease-in-out;
+    margin-bottom: 10px;
+	    }
+	    .content{
+			background: rgba(49, 112, 143, 0.68);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+    color: #fff;
+	    }
+	}
+	
+	a.more{
+		color: #111;
+		font-weight: 600;
+		background: $yellow;
+		text-transform: uppercase;
+		font-size: 0.8em;
+	}
+	&__rotator{
+		float: left;
+	}
+	.blocks{
+		width: 100%;
+	}
+	.box{
+	    width: 200px;
+	    float: left;
+	    background: #fff;
+	    height: 300px;
+	    margin: 0 15px;
+	        border: 1px solid #ddd;
+	    &:first-child{
+	    	margin-left:0;
+	    }
+	    &:last-child{
+	    	margin-right:0;
+	    }
+	    .box_content{
+	    	    height: 100%;
+    position: relative;
+			text-align: center;
+			padding: 10px;
+    	i{
+    		font-size: 10em;
+    		color: $yellow;
+    	}
+    	h3{
+    		color: $blue;
+    	}
+    	p{
+    		color:#000;
+    	}
+	    }
+	}
+}

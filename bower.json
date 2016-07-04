@@ -1,0 +1,22 @@
+{
+  "name": "Lev",
+  "authors": [
+    "Лев <lion.bond93@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap":"latest"
+  }
+}
