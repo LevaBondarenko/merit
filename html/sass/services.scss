@@ -45,7 +45,7 @@
     position: relative;
     transition: all .3s ease-in-out;
     float: left;
-
+overflow: hidden;
 	    }
 	    .small__block{
 	    	width: 350px;
@@ -54,15 +54,9 @@
     position: relative;
     transition: all .3s ease-in-out;
     margin-bottom: 10px;
+	overflow: hidden;
 	    }
-	    .content{
-			background: rgba(49, 112, 143, 0.68);
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    padding: 5px;
-    color: #fff;
-	    }
+	
 	}
 	
 	a.more{
@@ -108,4 +102,19 @@
     	}
 	    }
 	}
+	    .content{
+			background: rgba(49, 112, 143, 0.68);
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    padding: 5px;
+    color: #fff;
+	transition: all .3s ease-in-out;
+	    }
+}
+.big__block:hover >  .content{
+	bottom: 0;
+}
+.small__block:hover>  .content{
+	bottom: 0;
 }

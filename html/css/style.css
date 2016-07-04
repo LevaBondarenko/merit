@@ -46,7 +46,7 @@ header {
 }
 
 .social {
-  background: #193441;
+  background: #024959;
   color: #fff;
 }
 
@@ -103,7 +103,7 @@ header {
 }
 
 .search form {
-  background: #193441;
+  background: #024959;
   padding: 20px 20px;
   border-radius: 5px;
   position: relative;
@@ -166,7 +166,7 @@ header {
 }
 
 .services__nav li:first-child {
-  background: #193441;
+  background: #024959;
   color: #fff;
   font-weight: 600;
   letter-spacing: 2px;
@@ -183,7 +183,7 @@ header {
 }
 
 .services__nav li a:hover {
-  background: #F6D852;
+  background: #8C030E;
 }
 
 .services__block {
@@ -200,6 +200,7 @@ header {
   position: relative;
   transition: all .3s ease-in-out;
   float: left;
+  overflow: hidden;
 }
 
 .services__block .small__block {
@@ -209,21 +210,13 @@ header {
   position: relative;
   transition: all .3s ease-in-out;
   margin-bottom: 10px;
-}
-
-.services__block .content {
-  background: rgba(49, 112, 143, 0.68);
-  position: absolute;
-  width: 100%;
-  bottom: 0px;
-  padding: 5px;
-  color: #fff;
+  overflow: hidden;
 }
 
 .services a.more {
   color: #111;
   font-weight: 600;
-  background: #F6D852;
+  background: #8C030E;
   text-transform: uppercase;
   font-size: 0.8em;
 }
@@ -262,13 +255,31 @@ header {
 
 .services .box .box_content i {
   font-size: 10em;
-  color: #F6D852;
+  color: #8C030E;
 }
 
 .services .box .box_content h3 {
-  color: #193441;
+  color: #024959;
 }
 
 .services .box .box_content p {
   color: #000;
+}
+
+.services .content {
+  background: rgba(49, 112, 143, 0.68);
+  position: absolute;
+  width: 100%;
+  bottom: -200px;
+  padding: 5px;
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+.big__block:hover > .content {
+  bottom: 0;
+}
+
+.small__block:hover > .content {
+  bottom: 0;
 }
